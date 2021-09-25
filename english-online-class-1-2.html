@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Headstart English</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="ELF_PHONICS_LOGO.ico" type="image/icon" sizes="16x16">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <!-- css start -->
+  <link rel="stylesheet" type="text/css" href="webroot/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets-mfd/css/course.css">
+  <link rel="stylesheet" type="text/css" href="assets-mfd/css/style.css">
+
+  <!-- js start -->
+  <script type="text/javascript" src="webroot/js/jquery-3.5.1.js"></script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '135861522052236');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=135861522052236&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#myModal").on('hidden.bs.modal', function (e) {
+        $("#myModal iframe").attr("src", "");
+      });
+      $(document).on('click', '.thumb_video_sect', function () {
+
+        if ($(this).attr('data-content') == undefined)
+          $('#myModal iframe').attr('src', $(this).parents('.vmodel').find('.img-circle').attr('data-content'));
+        else
+          $('#myModal iframe').attr('src', $(this).attr('data-content'));
+      });
+    });
+  </script>
+
+
+
+</head>
+
+<body>
+  <!-- header start-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container header_main">
+      <a href="https://www.elflearn.com/" target="_block" class="navbar-brand elf_logo"><img
+          src="assets-mfd/img/elf_logo.png" class="img-fluid" alt="elf_logo"></a>
+      <div class="navbar-nav">
+        <a href="https://wa.me/919600186000?text=Hi%20ELF" target="_block" class="nav-item nav-link"><img
+            src="assets-mfd/img/whatsapp-logo.png" alt="whatsapp-logo" class="whatsapp-logo">96001 86000</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end here -->
+  <div class="container-fluid">
+    <div class="">
+      <div class="row">
+        <div class="col-lg-12 h_color">
+          <div class="container">
+            <div class="col-lg-12 landing_learn">
+              <h1>Headstart <br> English</h1>
+              <h3>Build fluency. Build confidence.</h3>
+            </div>
+            <div class="col-lg-6 offset-md-3 landing_student">
+              <div class="text-center">
+                <div class="pc_header_img">
+                  <img src="assets-mfd/img/course/speak_up_girl2_PC.png" alt="pc_header" class="">
+                </div>
+                <div class="mobile_header_img">
+                  <img src="assets-mfd/img/course/speak_up_girl2.png" alt="mobile_header" class="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-0 landing_blue1">
+          <div class="container p_fix">
+            <div class="col-lg-6 offset-md-3">
+              <div class="landing_blue text-center">
+                <div class="col-lg-12 col-md-0">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><img src="assets-mfd/img/course/live.png" alt="class1"><br>
+                      <p>24 LIVE <br>classes</p>
+                    </li>
+                    <li class="list-inline-item icon2"><img src="assets-mfd/img/course/class.png" alt="calendar1"><br>
+                      <p>2 classes <br>per week</p>
+                    </li>
+                    <li class="list-inline-item"><img src="assets-mfd/img/course/learn.png" alt="timer1"><br>
+                      <p>Batch size<br>5-8 Learners</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ends here -->
+  <div class="container-fluid h_color1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-md-3">
+          <div class="text-center course_description">
+            <h1>What will your child learn?</h1>
+            <p>ELF Headstart English LIVE Classes help your child read and speak English confidently. In 3 months, your
+              child will learn new vocabulary and converse fluently. Your child will also learn to spell better and read
+              stories with ease.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ENDS HERE -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+
+
+
+          <button class="img-circle thumb_video_sect voilet-btn btn" data-toggle="modal" data-target="#myModal">Check
+            your child's Reading Level</button>
+
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div>
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!-- <object data="assets-mfd/img/course/opposites_poem_assignment.pdf" class="ag-pdf"
+                    type="application/pdf"></object> -->
+                  <embed src="assets-mfd/img/course/opposites_poem_assignment.pdf" class="ag-pdf"
+                    type="application/pdf">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ENDS HERE -->
+    <div id="trial_class"></div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center course_description elf_champ">
+            <h1>Book a Trial Class</h1>
+          </div>
+          <div class="col-lg-6 offset-md-3">
+            <div data-paperform-id="elftrialclass" class="elftrialclass"></div>
+            <script>
+              (function () {
+                var script = document.createElement('script');
+                script.src = "https://paperform.co/__embed.min.js";
+                document.body.appendChild(script);
+              })()
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ENDS HERR -->
+    <div class="container-fluid our_class">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 offset-md-3">
+            <div class="text-center course_description class_preview " id="margin_top">
+              <h1>Take a sneak peek into our class</h1>
+              <div class="vmodel">
+                <div class="ag_staff">
+                  <img class="img-circle thumb_video_sect" alt="iit-jee-neet-sample-video"
+                    data-content="https://www.youtube.com/embed/b5mK6K3sri8?autoplay=1"
+                    src="assets-mfd/img/course/video_thumbnail.png" data-toggle="modal" data-target="#myModal">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ends here -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-md-3">
+          <div class="text-center course_description">
+            <h1>About ELF English</h1>
+            <p>ELF English <a href="https://www.elflearn.com/" target="_block">www.elflearn.com</a> aims to make English
+              Learning easy and fun for children. Our expert teachers run interactive LIVE Online Classes to enhance
+              foundational language skills and creativity of children from KG - Class 5.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid howwill">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-md-3 text-center">
+          <div class="img">
+            <img src="assets-mfd/img/elfabout1.png" alt="img" class="img-fluid">
+          </div>
+          <div class="img-content img-content17">
+            <span class="how21pt">In our small-group classes (5-8 children), we ensure that every child participates,
+              every child learns!</span>
+          </div>
+          <div class="img text-center">
+            <img src="assets-mfd/img/elfabout2.png" alt="img" class="img-fluid">
+          </div>
+          <div class="img-content">
+            <span class="how21pt">Thousands of satisfied parents and happy children make up the ELF English family.
+            </span>
+          </div>
+          <div class="img">
+            <img src="assets-mfd/img/elfabout3.png" alt="img" class="img-fluid">
+          </div>
+          <div class="img-content">
+            <span class="how21pt">We also run English Language Programs in several schools across India.
+            </span>
+          </div>
+          <div class="text-center main_phone">
+            <a href="tel:+91 96001 86000"><img src="assets-mfd/img/phone.png" alt=""><span class="phone_"><a
+                  href="tel:+91 96001 86000">96001 86000</a></span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ends here -->
+
+  <div class="demo container-fluid justify-content-between">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-md-3">
+          <div id="testimonial-slider" class="owl-carousel">
+            <div class="col-lg-12 text-center">
+              <h1>Parents Speak</h1>
+            </div>
+            <div class="testimonial">
+              <div class="testi-img">
+                <img src="assets-mfd/img/course/parent4.png" alt="parent1">
+              </div>
+              <p class="description">
+                Ram has always been fluent in his mother tongue, Tamil, but would hesitate to speak in English. I am
+                glad I enrolled him in the ELF Headstart English course. The ELF English classes have made him want to
+                read and understand English stories. In every LIVE class, Ram was able to have conversations with other
+                kids his age. ELF teachers are very creative and use exciting activities to engage children in learning.
+                The curriculum is well-designed. I am very happy to see Ram reading books and speaking in English now.
+              </p>
+              <h3 class="title">Deepa Natarajan, Mother <span>of</span> Ramnarayan, Class 1, <br>Chennai</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ends here -->
+
+  <div class="container-fluid elf_liveclass text-center">
+    <div class="container elf_session">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img src="assets-mfd/img/course/elflogo_coursesection_PC.png" alt="elf_logo"><br>
+          <span>LIVE classes</span>
+          <h3>Interactive sessions by Expert Teachers </h3>
+          <!-- 
+                <a href="https://forms.gle/abA2L9joQywdgXgXA" target="_blank" type="button" class="btn trial_btn">Book a Trial Class</a> -->
+          <a href="#trial_class" type="button" class="btn trial_btn">Book a Trial Class</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ENDS HERE -->
+  <div class="container-fluid footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Contact us</h4>
+          <h3>New No.9, Old No.5, 2nd Floor, Rajakrishna Road,<br> Teynampet, Chennai - 600018, India</h3>
+          <p>96001 86000<br>
+            <a href="https://www.elflearn.com/" target="_blank">www.elflearn.com</a><br>
+            info@elflearn.com</p>
+          <h4>Social Media</h4>
+          <ul class="social-network social-circle">
+            <li><a href="https://www.instagram.com/elfenglishlearn/" target="_blank" class="" title="Facebook"><img
+                  src="assets-mfd/img/instagram.png" class="instagram"></a></li>
+            <li><a href="https://www.facebook.com/ELFEnglishLearn/" target="_blank" class="" title="Linkedin"><img
+                  src="assets-mfd/img/fb.png" class="fb"></a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup start -->
+  <div class="container">
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog  modal-lg videos_bg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header popup_header" id="yt-player">
+            <button type="button" class="close just_remove" data-dismiss="modal">&times;</button> </div>
+          <div class="modal-body video_modalcontent">
+            <!-- parent video  -->
+            <div class="col-md-12">
+              <!-- <iframe class="modal_video f_mv"  src="" allow="autoplay"></iframe> -->
+              <iframe id="video1" class="student_video" src="" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
